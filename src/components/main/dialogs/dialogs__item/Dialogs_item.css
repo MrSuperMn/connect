@@ -1,0 +1,32 @@
+.dialogs__user {
+  font-weight: 600;
+  grid-area: user;
+}
+.dialogs__titles {
+  font-size: 25px;
+  margin: 0 0 30px 0;
+  font-weight: 600;
+  background-color: #c5c5c5;
+  padding: 20px;
+  color: #000;
+}
+.dialogs__user-name {
+  margin-left: 20px;
+  border-bottom: 1px solid rgba(139, 139, 139, 0.1294117647);
+  padding-bottom: 10px;
+}
+.dialogs__user-name a {
+  color: #484848;
+}
+.dialogs__message {
+  grid-area: message;
+}
+.dialogs__user-messages {
+  margin-left: 20px;
+  display: inline-block;
+  border: 1px solid rgba(113, 113, 113, 0.2156862745);
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  background-color: #ffffff;
+  padding: 5px;
+}/*# sourceMappingURL=Dialogs_item.css.map */

@@ -1,0 +1,13 @@
+.dialogs {
+  background-color: #f1f1f1;
+  box-shadow: 20px 5px 20px rgba(0, 0, 0, 0.1254901961);
+  border-left: 0.5px solid rgba(139, 139, 139, 0.4392156863);
+}
+.dialogs__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  grid-template-areas: "user message";
+  color: #000;
+}/*# sourceMappingURL=Dialogs.css.map */

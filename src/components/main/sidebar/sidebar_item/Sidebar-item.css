@@ -1,0 +1,12 @@
+.sidebar__item {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+}
+.sidebar__item img {
+  width: 20px;
+  margin-right: 20px;
+}
+.sidebar__item a {
+  color: #000000;
+}/*# sourceMappingURL=Sidebar-item.css.map */

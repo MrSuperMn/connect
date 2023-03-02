@@ -1,0 +1,40 @@
+.header {
+  justify-content: space-between;
+  align-items: center;
+  grid-area: header;
+  background-color: #1c1c1c;
+  grid-area: header;
+}
+.header__nav {
+  max-width: 90%;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo img {
+  width: 90px;
+}
+.header__right-bar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header__search {
+  border: 1px solid rgba(255, 255, 255, 0.3411764706);
+  background-color: #3e3e3e;
+  color: #fff;
+  width: 200px;
+  height: 20px;
+  border-radius: 20px;
+  padding: 5px 0 5px 10px;
+  font-size: 17px;
+}
+.header__toolbar {
+  display: flex;
+  gap: 20px;
+}
+.header__toolbar img {
+  width: 20px;
+}/*# sourceMappingURL=Header.css.map */

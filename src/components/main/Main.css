@@ -1,0 +1,13 @@
+.main__wrapper {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "sidebar profile";
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #ebebeb;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.337254902);
+  height: 100vh;
+}/*# sourceMappingURL=Main.css.map */

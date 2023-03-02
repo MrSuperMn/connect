@@ -1,0 +1,15 @@
+@import url(./css_reset.css);
+
+html{
+	background-color: #e6e6e6;
+}
+.app__wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 50px 3fr 30px;
+	grid-template-areas: 
+	"header"
+	"main"
+	"footer"
+	;
+}
